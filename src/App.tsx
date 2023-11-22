@@ -5,6 +5,9 @@ import TimerParent from './components/TimerParent';
 
 import CounterRed from './components/CounterRed';
 
+import Formulario from './components/Formulario';
+import Formulario2 from './components/Formulario2';
+
 
 function App() {
 
@@ -25,6 +28,18 @@ function App() {
       <hr />
 
       <CounterRed />
+
+      <h2 className='mt-4'> customHooks </h2>
+      <hr />
+
+      <Formulario />
+      <br />
+      <br />
+      <Formulario2 />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   )
 }
