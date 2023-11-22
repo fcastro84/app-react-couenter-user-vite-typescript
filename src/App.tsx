@@ -3,6 +3,8 @@ import User from './components/User';
 
 import TimerParent from './components/TimerParent';
 
+import CounterRed from './components/CounterRed';
+
 
 function App() {
 
@@ -18,6 +20,11 @@ function App() {
       <hr />
 
       <TimerParent />
+
+      <h2 className='mt-4'> useReducer </h2>
+      <hr />
+
+      <CounterRed />
     </>
   )
 }
